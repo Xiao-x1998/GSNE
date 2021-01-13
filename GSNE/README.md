@@ -1,8 +1,5 @@
 # GSNE
-<!--
-Source code and datasets for IJCAI 2021 paper "Strengthening Global Information for Attributed Network Embedding with a Smart Random Walk"
 
--->
 ---
 
 ## Requirements
@@ -32,17 +29,3 @@ For example, you can run GSNE on Cora dataset for node classfication task with L
 ```
 python src/main.py --dataset_name cora --test_type 1 --aggregator LSTM --walk_length 10
 ```
-<!--
-## Cite
-
-If you use the code, please cite our paper:
-
-```
-@inproceedings{cui2020adaptive,
-  title={Adaptive Graph Encoder for Attributed Graph Embedding},
-  author={Cui, Ganqu and Zhou, Jie and Yang, Cheng and Liu, Zhiyuan},
-  booktitle={Proceedings of SIGKDD 2020},
-  year={2020}
-}
-```
--->
